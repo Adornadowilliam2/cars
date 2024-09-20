@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.quiz-container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: clamp(300px, 80%, 600px); /* Sets a responsive width */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.options {
+  margin-top: 20px;
+  text-align: left; /* Aligns text to the left */
+}
+
+label {
+  display: block; /* Makes each option take the full width */
+}
+
+.toast {
+  position: fixed;
+  top: 20px; /* Positioning it at the top */
+  right: 20px; /* Still aligned to the right */
+  background-color: #ff4444;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1000;
+  max-width: 90%; /* Make it responsive */
+  word-wrap: break-word; /* Prevent overflow */
+}
+
+.toast.show {
+  opacity: 1;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 600px) {
+  .toast {
+    top: 10px; /* Adjusted position for mobile */
+    right: 10px;
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Smaller font size */
+  }
+}
+
+.results {
+  margin-top: 20px;
+  text-align: left;
+}
