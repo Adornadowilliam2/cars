@@ -1,4 +1,4 @@
-[hachi-ju roku](https://github.com/Adornadowilliam2/quiz-initiald-cars/blob/main/media/ae86toyotatrueno.png?raw=true)
+![hachi-ju roku](https://github.com/Adornadowilliam2/quiz-initiald-cars/blob/main/media/ae86toyotatrueno.png?raw=true)
 # Initial D Quiz: Car Edition
 
 Welcome to the Initial D Quiz! This interactive quiz is designed for fans of the iconic anime and manga series, focusing on the thrilling world of street racing and car culture.
